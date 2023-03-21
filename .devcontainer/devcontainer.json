@@ -3,25 +3,25 @@
 {
 	"name": "Go",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/go",
+	"image": "mcr.microsoft.com/devcontainers/go:dev-1-bullseye",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-    "features": {
-		"ghcr.io/devcontainers/features/common-utils:2": {
-			"installZsh": true,
-			"configureZshAsDefaultShell": true,
-			"installOhMyZsh": true,
-			"upgradePackages": true,
-			"username": "vscode",
-			"userUid": "automatic",
-			"userGid": "automatic"
-		},
-		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
-			"plugins": "git history ssh-agent npm",
-			"omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions https://github.com/zsh-users/zsh-history-substring-search https://github.com/zsh-users/zsh-syntax-highlighting",
-			"username": "vscode"
-		}
-	},
+    // "features": {
+	// 	"ghcr.io/devcontainers/features/common-utils:2": {
+	// 		"installZsh": true,
+	// 		"configureZshAsDefaultShell": true,
+	// 		"installOhMyZsh": true,
+	// 		"upgradePackages": true,
+	// 		"username": "vscode",
+	// 		"userUid": "automatic",
+	// 		"userGid": "automatic"
+	// 	},
+	// 	"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
+	// 		"plugins": "git history ssh-agent npm",
+	// 		"omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions https://github.com/zsh-users/zsh-history-substring-search https://github.com/zsh-users/zsh-syntax-highlighting",
+	// 		"username": "vscode"
+	// 	}
+	// },
 
 	// Configure tool-specific properties.
     "customizations": {
